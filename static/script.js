@@ -1,0 +1,1 @@
+// document.querySelector(".bi-linkedin").onclick= () => {alert("working")}

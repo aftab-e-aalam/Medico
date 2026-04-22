@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="{{url_for('static',filename='styles.css')}}" />
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <title>Hospitals</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="Logo"></div>
+    <nav>
+      <a href="{{url_for('home')}}">Home</a>
+      <a href="{{url_for('hospitals')}}">Hospital</a>
+      <a href="{{url_for('doctors')}}">Doctors</a>
+      <a href="{{url_for('treatment')}}">Treatment</a>
+    </nav>
+    <button type="button" class="btn btn-info">Book</button>
+    </nav>
+  </header>
+
+  <h1 style="padding: 30px;" class="text-center">hospitals</h1>
+  <div class="container">
+    <div class="row">
+      {%for hospital in hospitals%}
+      <div class="column col-12 col-md-6 g-3">
+        <div class="card text-bg-info m-3 ">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <!-- <img src="{{ url_for('static', filename='images/fortis_hospital_jaipur_building.webp') }}"
+          class="img-fluid rounded-1 p-3"> -->
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">{{hospital.Name}}</h5>
+                <p class="card-text">{{hospital.Description}}<br>{{hospital.City}}</p>
+
+              </div>
+            </div>
+            <div class="card-footer text-center">
+              <button class="btn btn-primary">More-info</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      {%endfor%}
+    </div>
+  </div>
+
+
+
+  <footer>
+    <div class="footer-content">
+      <div class="social">
+        <i class="bi bi-github"></i>
+        <i class="bi bi-linkedin"></i>
+        <i class="bi bi-instagram"></i>
+      </div>
+
+
+      <div class="quick">
+        <a href="{{url_for('home')}}">Home</a>
+        <a href="{{url_for('hospitals')}}">Hospital</a>
+        <a href="{{url_for('doctors')}}">Doctors</a>
+        <a href="{{url_for('treatment')}}">Treatment</a>
+      </div>
+      <div class="copyright">© 2026 All Right Rerserved by Team </div>
+      <div class="contributers">
+        <p>Aftab Vatsala Nirbhay Bhavika</p>
+      </div>
+    </div>
+
+  </footer>
+</body>

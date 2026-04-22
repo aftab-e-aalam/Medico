@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="{{url_for('static',filename='styles.css')}}" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <title>Home</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="Logo" ></div>
+    <nav>
+      <a href="{{url_for('home')}}">Home</a>
+      <a href="{{url_for('hospitals')}}">Hospital</a>
+      <a href="{{url_for('doctors')}}">Doctors</a>
+      <a href="{{url_for('treatment')}}">Book</a>
+    </nav>
+      <a href="{{url_for('login')}}"><button type="button" class="btn btn-info">login</button></a>
+  </header>
+
+
+  <div class="hero">
+    <div class="hero-content">
+      <h1>Affordable World-Class Healthcare</h1>
+      <p>Find best hospitals, doctors & treatments globally</p>
+    </div>
+  </div>
+
+  <h2 style="padding: 30px;">Top hospitals</h2>
+  <div class="hospitals">
+
+    <!-- Hospital Cards -->
+    <div class="card" style="width: 18rem;">
+      <img src="soni_hospital.jpg" class="card-img-top" alt="">
+      <div class="card-body">
+        <h5 class="card-title">Sony Hospital</h5>
+        <p class="card-text">Best for Neurology and Cardiology.<br>pink city Jaipur</p>
+        <button class="btn btn-primary">More details</button>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="fortis_hospital_jaipur_building.webp" class="card-img-top" alt="">
+      <div class="card-body">
+        <h5 class="card-title">Fortis Hospital</h5>
+        <p class="card-text">Best for pshycology.<br>Ghandhi Nagar Sikar</p>
+        <button class="btn btn-primary">More details</button>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="AiimsJammu.webp" class="card-img-top" alt="">
+      <div class="card-body">
+        <h5 class="card-title">AIIMS Hospital</h5>
+        <p class="card-text">multi specilization. <br>Vijaypur Jammu</p>
+        <button class="btn btn-primary">More details</button>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="download.webp" class="card-img-top" alt="">
+      <div class="card-body">
+        <h5 class="card-title">Tata Memorial Hospital</h5>
+        <p class="card-text">Best for Knee replacment. <br>Dadar Mumbai</p>
+        <button class="btn btn-primary">More details</button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Doctors cards -->
+  <h2 style="padding: 30px;">Top Doctors </h2>
+  <div class="doctors">
+    <!-- {%for doctor in doctors%}
+    <div class="card" style="width: 18rem;">
+      <div class="card-header">{{doctor.Name}}</div>
+      <div class="card-body">
+        <h5 class="card-title">{{doctor.Specialization}}</h5>
+        <p class="card-text">{{doctor.Hospital}}</p>
+        <button class="btn btn-primary">More details</button>
+      </div>
+    </div>
+    {%endfor%} -->
+    <div class="card" style="width: 18rem;">
+      <div class="card-header">Dr. Vatsala choudary</div>
+      <div class="card-body">
+        <h5 class="card-title">Cardiologist</h5>
+        <p class="card-text">Best for Heart Surgery. <br>Sainik Colony Jammu</p>
+        <button class="btn btn-primary">More details</button>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <div class="card-header">Dr.Nirbhay Niriga</div>
+      <div class="card-body">
+        <h5 class="card-title">Neurologist</h5>
+        <p class="card-text">Best for Kidney Transplant. <br>Vijaypur Jammu</p>
+        <button class="btn btn-primary">More details</button>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <div class="card-header">Dr. Bhavika Sharma</div>
+      <div class="card-body">
+        <h5 class="card-title">Gynacologist</h5>
+        <p class="card-text">Best for Female Surgery. <br>Ghandhi Nagar Jammu</p>
+        <button class="btn btn-primary">More details</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- treatments card  -->
+  <h2 style="padding: 30px;">Best Treatments</h2>
+  <div class="treatments">
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Hearts Treatment</h5>
+        <p class="card-text">With Our specilized Doctors.</p>
+        <a href="#" class="btn btn-primary">More Details</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Brain Treatment</h5>
+        <p class="card-text">With Our specilized Doctors.</p>
+        <a href="#" class="btn btn-primary">More Details</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Knee Treatment</h5>
+        <p class="card-text">With Our specilized Doctors.</p>
+        <a href="#" class="btn btn-primary">More Details</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Tumor Treatment</h5>
+        <p class="card-text">With Our specilized Doctors.</p>
+        <a href="#" class="btn btn-primary">More Details</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <div class="social">
+        <a href="https://github.com/aftab-e-aalam" target="_blank"><i class="bi bi-github"></i></a>
+        <i type="button" class="bi bi-linkedin"></i>
+        <i class="bi bi-instagram"></i>
+      </div>
+
+      <div class="quick">
+        <a href="{{url_for('home')}}">Home</a>
+        <a href="{{url_for('hospitals')}}">Hospital</a>
+        <a href="{{url_for('doctors')}}">Doctors</a>
+        <a href="{{url_for('treatment')}}">Book</a>
+      </div>
+      <div class="copyright">© 2026 All Right Rerserved by Team </div>
+      <div class="contributers">
+        <p>Aftab Vatsala Nirbhay Bhavika</p>
+      </div>
+    </div>
+
+  </footer>
+
+
+  <script src="{{url_for('static',filename='script.js')}}"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
