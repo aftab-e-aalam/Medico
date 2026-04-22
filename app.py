@@ -8,8 +8,15 @@ app=Flask(__name__)
 #------------Routing---------------
 @app.route("/")
 def home():
-
-    return render_template("index.html")
+    df=pd.read_csv("final_data.csv").nlargest(4,"Experience")
+    topDoctors=df.to_dict(orient="records")
+    
+    topHospitals=pd.read_csv("data.csv").sort_values(by="Rating",ascending=False).head(4)
+    topHospitals=topHospitals.to_dict(orient="records")
+    
+    
+    
+    return render_template("index.html",topDoctors=topDoctors,topHospitals=topHospitals)
     
 
 @app.route("/hospitals")
@@ -21,10 +28,10 @@ def hospitals():
 
 @app.route("/doctors")
 def doctors():
-    df =pd.read_excel("data.xlsx")
+    df =pd.read_csv("final_data.csv")
     doctors_data=df.to_dict(orient="records")
+    
     return render_template("doctors.html",doctors=doctors_data)
-
 
 @app.route("/treatment")
 def treatment():

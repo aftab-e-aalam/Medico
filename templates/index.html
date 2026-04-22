@@ -17,14 +17,14 @@
 <body>
 
   <header>
-    <div class="Logo" ></div>
+    <div class="Logo"></div>
     <nav>
       <a href="{{url_for('home')}}">Home</a>
       <a href="{{url_for('hospitals')}}">Hospital</a>
       <a href="{{url_for('doctors')}}">Doctors</a>
-      <a href="{{url_for('treatment')}}">Book</a>
+      <a href="{{url_for('treatment')}}">Login</a>
     </nav>
-      <a href="{{url_for('login')}}"><button type="button" class="btn btn-info">login</button></a>
+    <a href="{{url_for('login')}}"><button type="button" class="btn btn-info">login</button></a>
   </header>
 
 
@@ -35,85 +35,39 @@
     </div>
   </div>
 
-  <h2 style="padding: 30px;">Top hospitals</h2>
-  <div class="hospitals">
-
-    <!-- Hospital Cards -->
-    <div class="card" style="width: 18rem;">
-      <img src="soni_hospital.jpg" class="card-img-top" alt="">
-      <div class="card-body">
-        <h5 class="card-title">Sony Hospital</h5>
-        <p class="card-text">Best for Neurology and Cardiology.<br>pink city Jaipur</p>
-        <button class="btn btn-primary">More details</button>
-      </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-      <img src="fortis_hospital_jaipur_building.webp" class="card-img-top" alt="">
-      <div class="card-body">
-        <h5 class="card-title">Fortis Hospital</h5>
-        <p class="card-text">Best for pshycology.<br>Ghandhi Nagar Sikar</p>
-        <button class="btn btn-primary">More details</button>
-      </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-      <img src="AiimsJammu.webp" class="card-img-top" alt="">
-      <div class="card-body">
-        <h5 class="card-title">AIIMS Hospital</h5>
-        <p class="card-text">multi specilization. <br>Vijaypur Jammu</p>
-        <button class="btn btn-primary">More details</button>
-      </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-      <img src="download.webp" class="card-img-top" alt="">
-      <div class="card-body">
-        <h5 class="card-title">Tata Memorial Hospital</h5>
-        <p class="card-text">Best for Knee replacment. <br>Dadar Mumbai</p>
-        <button class="btn btn-primary">More details</button>
-      </div>
-    </div>
-
-  </div>
 
   <!-- Doctors cards -->
   <h2 style="padding: 30px;">Top Doctors </h2>
   <div class="doctors">
-    <!-- {%for doctor in doctors%}
+    {%for doctor in topDoctors%}
     <div class="card" style="width: 18rem;">
       <div class="card-header">{{doctor.Name}}</div>
       <div class="card-body">
         <h5 class="card-title">{{doctor.Specialization}}</h5>
-        <p class="card-text">{{doctor.Hospital}}</p>
-        <button class="btn btn-primary">More details</button>
+        <p class="card-text">{{doctor.Experience}} Years of Experience</p>
+        <p class="card-text">{{doctor.Hospitals}}</p>
+        <p class="card-text">{{doctor.City}}</p>
+        <!-- <button class="btn btn-primary">More details</button> -->
       </div>
     </div>
-    {%endfor%} -->
+    {%endfor%}
+  </div>
+
+  <!-- Hospital Cards -->
+  <h2 style="padding: 30px;">Top hospitals</h2>
+  <div class="hospitals">
+
+    {%for hospital in topHospitals%}
     <div class="card" style="width: 18rem;">
-      <div class="card-header">Dr. Vatsala choudary</div>
+      <img src="soni_hospital.jpg" class="card-img-top" alt="">
       <div class="card-body">
-        <h5 class="card-title">Cardiologist</h5>
-        <p class="card-text">Best for Heart Surgery. <br>Sainik Colony Jammu</p>
+        <h5 class="card-title">{{hospital.Name}}</h5>
+        <p class="card-text">⭐{{hospital.Rating}}<br>{{hospital.City}}</p>
         <button class="btn btn-primary">More details</button>
       </div>
     </div>
-    <div class="card" style="width: 18rem;">
-      <div class="card-header">Dr.Nirbhay Niriga</div>
-      <div class="card-body">
-        <h5 class="card-title">Neurologist</h5>
-        <p class="card-text">Best for Kidney Transplant. <br>Vijaypur Jammu</p>
-        <button class="btn btn-primary">More details</button>
-      </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-      <div class="card-header">Dr. Bhavika Sharma</div>
-      <div class="card-body">
-        <h5 class="card-title">Gynacologist</h5>
-        <p class="card-text">Best for Female Surgery. <br>Ghandhi Nagar Jammu</p>
-        <button class="btn btn-primary">More details</button>
-      </div>
-    </div>
+    {%endfor%}
+
   </div>
 
 
@@ -162,12 +116,14 @@
         <a href="{{url_for('home')}}">Home</a>
         <a href="{{url_for('hospitals')}}">Hospital</a>
         <a href="{{url_for('doctors')}}">Doctors</a>
-        <a href="{{url_for('treatment')}}">Book</a>
+        <a href="{{url_for('treatment')}}">Login</a>
       </div>
       <div class="copyright">© 2026 All Right Rerserved by Team </div>
+      <div >Contributers</div>
       <div class="contributers">
         <p>Aftab Vatsala Nirbhay Bhavika</p>
       </div>
+
     </div>
 
   </footer>

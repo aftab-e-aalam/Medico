@@ -25,7 +25,7 @@
       <a href="{{url_for('doctors')}}">Doctors</a>
       <a href="{{url_for('treatment')}}">Treatment</a>
     </nav>
-    <button type="button" class="btn btn-info">Book</button>
+    <button type="button" class="btn btn-info">Login</button>
     </nav>
   </header>
   <!-- -------Doctors Data ---------- -->
@@ -39,8 +39,9 @@
           <div class="card-header">{{doctor.Name}}</div>
           <div class="card-body">
             <h5 class="card-title">{{doctor.Specialization}}</h5>
-            <p class="card-text">{{doctor.Hospital}}</p>
-            <button class="btn btn-primary">More details</button>
+            <p class="card-text">{{doctor.Hospitals}}</p>
+            <p class="card-text">{{doctor.City}}</p>
+           
           </div>
         </div>
       </div>
@@ -68,9 +69,10 @@
         <a href="{{url_for('home')}}">Home</a>
         <a href="{{url_for('hospitals')}}">Hospital</a>
         <a href="{{url_for('doctors')}}">Doctors</a>
-        <a href="{{url_for('treatment')}}">Treatment</a>
+        <a href="{{url_for('treatment')}}">Login</a>
       </div>
       <div class="copyright">© 2026 All Right Rerserved by Team </div>
+      <div >Contributers</div>
       <div class="contributers">
         <p>Aftab Vatsala Nirbhay Bhavika</p>
       </div>

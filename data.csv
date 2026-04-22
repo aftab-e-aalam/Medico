@@ -1,11 +1,16 @@
-Name,City,Description
-City Care Hospital,Delhi,Highly experienced neurologists and advanced brain surgery facilities. Best choice for neurology and critical care treatments.
-Apollo Multispeciality,Mumbai,Top doctors with years of experience in cardiology and organ transplant. Excellent for heart surgeries and emergency care.
-Sunrise Medical Center,Bangalore,Expert dermatologists and cosmetic specialists. Ideal for skin treatments and aesthetic procedures.
-Green Valley Hospital,Chandigarh,Renowned orthopedic surgeons with modern equipment. Best for bone fractures and joint replacement surgeries.
-Lifeline Hospital,Hyderabad,Highly skilled general physicians and ICU specialists. Trusted for emergency and intensive care treatments.
-Medico Plus,Kolkata,Experienced pediatricians and child care specialists. Perfect for newborn and child health services.
-NeuroCare Institute,Pune,Top neurologists with advanced neuro-surgery units. Best for brain and spine-related treatments.
-HeartBeat Hospital,Chennai,Expert cardiologists with modern cardiac labs. Ideal for heart checkups and bypass surgeries.
-Wellness Hospital,Jaipur,Multi-speciality doctors with holistic treatment approach. Good for general health and preventive care.
-Care & Cure Hospital,Lucknow,Highly trained surgeons and emergency staff. Best for trauma care and surgical procedures.
+Name,City,Description,Rating
+Apollo Hospital,Delhi,"Highly experienced neurologists and advanced brain surgery facilities. Best choice for neurology and critical care treatments.",4.7
+AIIMS,Delhi,"Top doctors with extensive research background and advanced facilities. Ideal for complex treatments and emergency care.",4.9
+Fortis Hospital,Mumbai,"Expert cardiologists and modern heart care units. Best for cardiac surgeries and diagnostics.",4.6
+Max Healthcare,Delhi,"Multi-speciality hospital with experienced doctors. Trusted for general and surgical treatments.",4.5
+Medanta Hospital,Gurgaon,"Highly skilled surgeons and advanced infrastructure. Best for organ transplant and critical care.",4.8
+Narayana Health,Bangalore,"Affordable healthcare with experienced specialists. Good for heart and general treatments.",4.4
+Manipal Hospital,Bangalore,"Well-known for multi-speciality care and experienced doctors. Ideal for overall healthcare.",4.5
+Kokilaben Hospital,Mumbai,"Advanced technology with expert doctors. Best for neurology and oncology treatments.",4.7
+Ruby Hall Clinic,Pune,"Trusted hospital with experienced staff. Good for emergency and surgical care.",4.3
+Care Hospital,Hyderabad,"Specialized doctors and modern ICU facilities. Ideal for trauma and critical care.",4.6
+Columbia Asia Hospital,Bangalore,"Clean infrastructure with skilled doctors. Best for general and pediatric care.",4.2
+Global Hospitals,Chennai,"Expert in liver and kidney transplants. Advanced surgical treatments available.",4.6
+BLK Hospital,Delhi,"Highly experienced specialists with modern equipment. Best for cancer and surgery.",4.5
+Sir Ganga Ram Hospital,Delhi,"Renowned doctors with long experience. Trusted for multiple specialities.",4.7
+Lilavati Hospital,Mumbai,"Premium hospital with expert doctors. Best for high-quality treatment and care.",4.6

@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-background: linear-gradient(135deg, #f5f5dc, #cde7f0);
+  background: linear-gradient(135deg, #ececec, #ffffff);
 
 }
 a {
@@ -11,7 +11,7 @@ a {
 
 header{
     
-    background-color: beige;
+    background-color: #ececec;
     display: flex;
     justify-content: space-between;
     padding: 20px 20px;
@@ -72,7 +72,7 @@ footer{
     padding: 50px;
     margin-top: 50px;
     height: 300px;
-    background-color: beige;
+    background-color: #ececec;
     display: flex;
     justify-content: center;
     align-items:center;

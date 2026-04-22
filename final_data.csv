@@ -1,0 +1,85 @@
+Unnamed: 0,Name,Specialization,Qualification,Experience,Hospitals,City
+0,Dr. Vivek Mittal,Orthopaedic Surgeon,Fellowship MS MBBS,31,BLK-Max Super Speciality Hospital,Delhi
+1,Dr. Rakesh Mahajan,Orthopaedic Surgeon,MBBS Diploma DNB,25,BLK-Max Super Speciality Hospital,Delhi
+2,Dr. Bhupendra Pratap,Orthopaedic Surgeon,MS,17,BLK-Max Super Speciality Hospital,Delhi
+3,Dr. Harshavardhan Hegde,Orthopaedic Surgeon,MBBS MS,42,Max Super Speciality Hospital Saket,Delhi
+4,Dr. Ramneek Mahajan,Orthopaedic Surgeon,MBBS MS MCh Fellowship,26,Max Super Speciality Hospital Saket,Delhi
+5,Dr. S K S Marya,Orthopaedic Surgeon,MCh DNB MS MBBS,46,Max Super Speciality Hospital Saket,Delhi
+6,Dr. Jatinder Bir Singh Jaggi,Orthopaedic Surgeon,MBBS DNB,31,Max Hospital,Gurgaon
+7,Dr. Vikas Gupta,Orthopaedic Surgeon,Fellowship MS,28,Max Super Speciality Hospital Saket,Delhi
+8,Dr. Munish Chaudhry,Orthopaedic Surgeon,Fellowship MS MBBS,31,Max Super Speciality Hospital Saket,Delhi
+9,Dr. Prakash M Doshi,Orthopaedic Surgeon,MS DO MBBS,36,Nanavati Super Specialty Hospital,Mumbai
+10,Dr. Sunil Shahan,Orthopaedic Surgeon,Fellowship MCh MS MBBS,29,Nanavati Super Specialty Hospital,Mumbai
+11,Dr. Ashok K Singhvi,Orthopaedic Surgeon,MCh MS MBBS,47,Nanavati Super Specialty Hospital,Mumbai
+12,Dr. Subhash Jangid,Orthopaedic Surgeon,MBBS DNB MS MNAMS MRCS MCh,25,Fortis Memorial Research Institute,Gurgaon
+13,Dr. Rashmi Chopra,Orthopaedic Surgeon,MBBS MS,27,Fortis Memorial Research Institute,Gurgaon
+14,Dr. Kiran Harsha Melkote,Orthopaedic Surgeon,MS MBBS,12,Fortis Memorial Research Institute,Gurgaon
+15,Dr. Manoj Miglani,Orthopaedic Surgeon,MBBS MS Fellowship,27,Fortis Hospital Vasant Kunj,Delhi
+16,Dr. Vishwadeep Sharma,Orthopaedic Surgeon,Fellowship MS MBBS,18,Fortis Hospital Vasant Kunj,Delhi
+17,Dr. IPS Oberoi,Orthopaedic Surgeon,MBBS MS MCh,31,Artemis Hospital,Gurgaon
+18,Dr. Prithvi Mohandas,Orthopaedic Surgeon,MBBS,21,MIOT International,Chennai
+19,Dr. Thirumalesh K Reddy,Orthopaedic Surgeon,Fellowship MCh MSc MS MBBS,30,Aster CMI Hospital,Bangalore
+20,Dr. Balbir Singh,Interventional Cardiologist,MBBS MD DM Fellowship,36,Max Super Speciality Hospital Saket,Delhi
+21,Dr. Arvind Das,Interventional Cardiologist,MBBS MD DM,25,Max Hospital,Delhi
+22,Dr. Ashok Seth,Interventional Cardiologist,MBBS MD FRCP MRCP Fellowship,40,Fortis Escorts Heart Institute,Delhi
+23,Dr. Saket Bhardwaj,Interventional Cardiologist,MBBS MD DM,28,BLK-Max Super Speciality Hospital,Delhi
+24,Dr. Siddharth Sheth,Interventional Cardiologist,DNB MBBS,22,Nanavati Super Specialty Hospital,Mumbai
+25,Dr. Sudarshan GT,Interventional Cardiologist,MS MBBS,18,Fortis Hospital Bannerghatta,Bangalore
+26,Dr. Sridhara N,Interventional Cardiologist,DM MD MBBS,24,Fortis Hospital Bannerghatta,Bangalore
+27,Dr. M S Meenakshi,Interventional Cardiologist,MBBS MD DM,25,MIOT International,Chennai
+28,Dr. Shyam Kumar G,Interventional Cardiologist,MBBS MD DM,13,MIOT International,Chennai
+29,Dr. Kuldeep Arora,Interventional Cardiologist,MBBS MD DM,23,Artemis Hospital,Gurgaon
+30,Dr. Rahul Mehrotra,Cardiology,MBBS MD DNB,24,Artemis Hospital,Gurgaon
+31,Dr. Salil Jain,Nephrologist,MBBS MD DNB,40,Fortis Hospital,Gurgaon
+32,Dr. Ajit Singh Narula,Nephrologist,MBBS MD DM,48,Fortis Escorts Heart Institute,Delhi
+33,Dr. Mohan Keshavamurthy,Nephrologist,Fellowship FRCS MCh MS MBBS,26,Fortis Hospital Bannerghatta,Bangalore
+34,Dr. Manju Aggarwal,Nephrologist,MBBS MD,23,Artemis Hospital,Gurgaon
+35,Dr. A Kanakaraj,Nephrologist,MBBS MD DNB,35,MIOT International,Chennai
+36,Dr. AFTAB ,Nephrologist,MBBS MS MCh,53,BLK-Max Super Speciality Hospital,Delhi
+37,Dr. Rushi Deshpande,Nephrologist,MBBS MD Fellowship,20,Jaslok Hospital,Mumbai
+38,Dr. Sandeep Vaishya,Neurosurgeon,MBBS MS MCh Fellowship,36,Fortis Memorial Research Institute,Gurgaon
+39,Dr. Aditya Gupta,Neurosurgeon,MBBS MCh Fellowship,30,Artemis Hospital,Gurgaon
+40,Dr. Rohit Bansil,Neurosurgeon,Fellowship DNB MBBS,19,BLK-Max Super Speciality Hospital,Delhi
+41,Dr. Neeta Shah,Neurologist,DM MD MBBS,50,Nanavati Super Specialty Hospital,Mumbai
+42,Dr. Bindu Thankappan,Neurologist,MBBS MD DM,18,MIOT International,Chennai
+43,Dr. PK Sachdeva,Neurosurgeon,MCh MS MBBS,28,Venkateshwar Hospital,Delhi
+45,Dr. Jairam Chandra Pingle,Orthopaedics,MBBS MS FRCS,50,Apollo Hospitals,India
+46,Dr. Vinod Sukhija,Orthopaedics,MBBS MS MCh,45,Apollo Hospitals,India
+47,Dr. N Sastri,Cardiology,MBBS MD MS FHCS FICS,47,Apollo Hospitals,India
+48,Dr. Mahesh Chandra Garg,Cardiology,MBBS MD MRCP FRCP,44,Apollo Hospitals,India
+49,Dr. Ravi Bhatia,Neurologist,MBBS MS MCh,48,Apollo Hospitals,India
+50,Dr. Subhashini Prabhakar,Neurologist,MBBS MD MNAMS,46,Apollo Hospitals,India
+51,Dr. Akhil Mishra,Nephrologist,MBBS MD DM,50,Apollo Hospitals,India
+52,Dr. Soundara Pandian,Nephrologist,MBBS MD DM,50,Apollo Hospitals,India
+54,Dr. Naresh Trehan,Cardiology,MBBS Diplomate,56,Medanta Hospital,Gurgaon
+55,Dr. Anil Bhan,Cardiology,MBBS MS MCh,49,Medanta Hospital,Gurgaon
+56,Dr. Ashok Rajgopal,Orthopaedics,FRCS FIMSA MCh MS MBBS,50,Medanta Hospital,Gurgaon
+57,Dr. Raman Kant Aggarwal,Orthopaedics,MBBS MS MSc Fellowship,34,Medanta Hospital,Gurgaon
+58,Dr. Raj Kumar Sharma,Nephrologist,MBBS MD DNB,36,Medanta Hospital,Gurgaon
+59,Dr. Shyam Bihari Bansal,Nephrologist,MBBS MD DM FRCP,30,Medanta Hospital,Gurgaon
+60,Dr. Arun Garg,Neurologist,MBBS MD DM,34,Medanta Hospital,Gurgaon
+61,Dr. Vinay Goyal,Neurologist,MBBS MD DM,34,Medanta Hospital,Gurgaon
+63,Dr. Amit Chaudhary,Cardiology,MBBS MS MRCS MCh,17,Medanta Hospital,Noida
+64,Dr. Amit Kumar Malik,Cardiology,MBBS MD DM,20,Medanta Hospital,Noida
+65,Dr. Sanjay Gupta,Orthopaedics,MBBS MS MRCS MCh FRCS,25,Medanta Hospital,Noida
+66,Dr. Akshay Bhandari,Orthopaedics,MBBS MS Fellowship,26,Medanta Hospital,Noida
+67,Dr. Dushyant Nadar,Nephrologist,MBBS MS Diplomate,25,Medanta Hospital,Noida
+68,Dr. Rahul Gupta,Nephrologist,MBBS MS MCh,17,Medanta Hospital,Noida
+69,Dr. Manish Vaish,Neurologist,MBBS DNB Fellowship,21,Medanta Hospital,Noida
+70,Dr. Girish Rajpal,Neurologist,MBBS MS MCh,15,Medanta Hospital,Noida
+72,Dr. Keshava R,Cardiology,MBBS MD DNB,33,Manipal Hospital,Bangalore
+73,Dr. Anand R Shenoy,Cardiology,MBBS MD DM,26,Manipal Hospital,Bangalore
+74,Dr. Sunil G Kini,Orthopaedics,MBBS MS DNB MRCS MCh,22,Manipal Hospital,Bangalore
+75,Dr. Bharath Kadadi,Orthopaedics,MBBS MS,13,Manipal Hospital,Bangalore
+76,Dr. Vishwanath S,Nephrologist,MBBS DNB,29,Manipal Hospital,Bangalore
+77,Dr. G K Prakash,Nephrologist,MBBS MD DNB,17,Manipal Hospital,Bangalore
+78,Dr. Pramod Krishnan,Neurologist,MBBS MD DM,24,Manipal Hospital,Bangalore
+79,Dr. Ajit Kumar Roy,Neurologist,MD DM,48,Manipal Hospital,Bangalore
+81,Dr. Rajeev Verma,Orthopaedics,MBBS MS MRCS MSc,20,Manipal Hospital,Delhi
+82,Dr. Bharat Bhushan Chauhan,Orthopaedics,MBBS MS,14,Manipal Hospital,Delhi
+83,Dr. Smita Mishra,Cardiology,MBBS MD FNB,36,Manipal Hospital,Delhi
+84,Dr. Samanjoy Mukherjee,Cardiology,MBBS MD DM,28,Manipal Hospital,Delhi
+85,Dr. CS Narayanan,Neurologist,MBBS MD DM,44,Manipal Hospital,Delhi
+86,Dr. Khushbu Goel,Neurologist,MBBS MD DM,12,Manipal Hospital,Delhi
+87,Dr. Suman Lata,Nephrologist,MBBS MD DM,15,Manipal Hospital,Delhi
+88,Dr. Ankur Mittal,Nephrologist,MBBS MD DrNB,13,Manipal Hospital,Delhi
