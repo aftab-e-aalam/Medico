@@ -66,7 +66,7 @@ def register():
         db.session.add(user)
         db.session.commit()
         
-        message="Your registration is successful please Login"
+
         return redirect(url_for("login"))
     
     
