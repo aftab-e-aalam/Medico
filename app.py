@@ -1,6 +1,7 @@
 from flask import Flask,render_template,url_for,redirect,request,session,flash
 import pandas as pd 
 from models import User,db
+from Email import Email
 
 
 app=Flask(__name__)
@@ -65,6 +66,8 @@ def register():
         user=User(name=name,email=email,password=password)
         db.session.add(user)
         db.session.commit()
+        
+        Email().sendemail(name=name,email=email)
         
 
         return redirect(url_for("login"))
