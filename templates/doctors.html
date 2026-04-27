@@ -25,28 +25,32 @@
       <a href="{{url_for('doctors')}}">Doctors</a>
       <a href="{{url_for('treatment')}}">Treatment</a>
     </nav>
-   <a href="{{url_for('login')}}"><button type="button" class="btn btn-info">login</button></a>
+    <a href="{{url_for('login')}}"><button type="button" class="btn btn-info">login</button></a>
     </nav>
   </header>
   <!-- -------Doctors Data ---------- -->
 
   <h1 style="padding: 30px;" class="text-center">Doctors</h1>
-  <div class="container">
+  <div class="container ">
     <div class="row ">
       {%for doctor in doctors%}
-      <div class="col-12 col-md-3 g-3">
+      <div class="col-12 col-md-3 g-3 doctor-card" style="display: none;">
         <div class="card h-100">
           <div class="card-header">{{doctor.Name}}</div>
           <div class="card-body">
             <h5 class="card-title">{{doctor.Specialization}}</h5>
             <p class="card-text">{{doctor.Hospitals}}</p>
             <p class="card-text">{{doctor.City}}</p>
-           
+
           </div>
         </div>
       </div>
       {% endfor %}
+
     </div>
+  </div>
+  <div style="text-align:center; margin:20px;">
+    <button type="button" onclick="showMore()" class="btn btn-info" id="btn">Show More</button>
   </div>
 
 
@@ -72,11 +76,16 @@
         <a href="{{url_for('treatment')}}">Login</a>
       </div>
       <div class="copyright">© 2026 All Right Rerserved by Team </div>
-      <div >Contributers</div>
+      <div>Contributers</div>
       <div class="contributers">
         <p>Aftab Vatsala Nirbhay Bhavika</p>
       </div>
     </div>
 
   </footer>
+  <script src="{{url_for('static',filename='script.js')}}"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
 </body>

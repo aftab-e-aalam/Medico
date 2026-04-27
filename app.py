@@ -7,7 +7,7 @@ app=Flask(__name__)
 
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///users.db'
-app.config['SECRET_KEY']="!@#$#"
+app.config['SECRET_KEY']="!@#!@#"
 
 db.init_app(app)
 
@@ -79,8 +79,10 @@ def login():
         user=User.query.filter_by(email=email,password=password).first()
         if user:
             session["email"]=user.email
-            return render_template("index.html")
-            
+            return redirect(url_for("home"))
+        else :
+            message="Wrong credentials try again"
+            return render_template("login.html",message=message)
         
 
     return render_template("login.html")

@@ -7,5 +7,3 @@ class User(db.Model):
     name=db.Column(db.String(30))
     email=db.Column(db.String(25), unique=True)
     password=db.Column(db.String(100))
-    
-    

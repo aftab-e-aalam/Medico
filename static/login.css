@@ -36,16 +36,16 @@ input {
 button {
     width: 100%;
     padding: 10px;
-    background: #4CAF50;
+    background: #0dcaf0;
     border: none;
-    color: white;
+    color: rgb(24, 22, 22);
     font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
 }
 
 button:hover {
-    background: #45a049;
+    background: #0baccc;
 }
 
 .toggle {
