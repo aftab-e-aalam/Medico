@@ -57,7 +57,7 @@ def register():
         password=request.form['password']
         
         user=User.query.filter_by(email=email).first()
-        
+
         if user:
             message="Email already exist!"
             return render_template("register.html",message=message)
@@ -67,7 +67,9 @@ def register():
         db.session.commit()
         
         message="Your registration is successful please Login"
-        return render_template("login.html",message=message)
+        return redirect(url_for("login"))
+    
+    
     return render_template("register.html")
 
 @app.route("/login",methods=["GET","POST"])
@@ -77,6 +79,7 @@ def login():
         password=request.form["password"]
         
         user=User.query.filter_by(email=email,password=password).first()
+        
         if user:
             session["email"]=user.email
             return redirect(url_for("home"))
